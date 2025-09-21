@@ -1,0 +1,12 @@
+{
+    "name": "Property Management",
+    "version": "1.0.0",
+    "description": "Deze module staat toe om bezittingen te beheren.",
+    "author": {
+        "name": "Chris Day",
+        "url": "http:\/\/glscript.cdcoding.com"
+    },
+    "pageName": "Eigendommen beheer",
+    "accessInJail": false,
+    "requireLogin": true
+}

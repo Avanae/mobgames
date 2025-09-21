@@ -1,0 +1,51 @@
+/*-------------- GPS lay-out instellingen -------------------------------------------------------------------------------*/
+gps {
+	clear:both;
+	float:left;
+	background-color:black;
+	color:white;
+	margin-top:5px;
+}
+
+#gps a{
+	display:block;
+	width:155px;
+	background-color:transparent;
+	color:white;
+	text-decoration:none;
+}
+.padding_25{ padding:25px 0px 0px 20px;}
+#gps a:hover{
+	width:155px;
+	display:block;
+	background-color:gray;
+	color:white;
+}
+.rank_bar2{
+
+	top:0;
+	left:0;
+	height:20px;
+	color:black;
+}
+.rank_box{
+	position:relative;
+	margin:0px;
+	height:15px;
+	background-color:#333;
+	color:white;
+	width:100px;
+	text-align:center;
+	vertical-align:middle;
+	padding:3px;
+}
+.rank_bar{
+	position:absolute;
+	top:0;
+	left:0;
+	height:15px;
+	color:white;
+	padding:3px;
+}
+.rank_bar p { width:90px; }
+

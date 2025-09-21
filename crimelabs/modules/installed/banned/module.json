@@ -1,0 +1,12 @@
+{
+    "name": "Banned User",
+    "version": "1.0.0",
+    "description": "Deze pagina wordt getoond wanneer een verbannen gebruiker inlogt",
+    "author": {
+        "name": "Chris Day",
+        "url": "http:\/\/glscript.cdcoding.com"
+    },
+    "pageName": "Verbannen",
+    "accessInJail": true,
+    "requireLogin": true
+}

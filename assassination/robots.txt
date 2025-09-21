@@ -1,0 +1,12 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /images/
+Disallow: /include/
+Disallow: /javascript/
+Disallow: /stylesheets/
+Disallow: /languages/
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://www.assassination.be/sitemap.xml

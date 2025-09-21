@@ -1,0 +1,10 @@
+/*-------------- Vip menu in extra navigatie -------------------------------------------------------------------------------*/
+#vip_menu  table{
+width:200px;
+background-color:#444;
+color:white;
+}
+#vip_menu  table tr td a{
+background-color:black;
+color:limegreen;
+}

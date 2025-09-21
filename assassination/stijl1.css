@@ -1,0 +1,456 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	outline:0px;
+}
+body {
+	font-size:10px;
+	font-family:Verdana, arial sans-serif;
+	background-color:black;
+	color:black;
+}
+#body {	
+	background: url("images/backgrounds/background.png");
+	background-size:100% 100%;
+	/*background-color:black;*/
+}
+body a {
+	text-decoration:none;
+	color:limegreen;
+}
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:auto;
+	display:block;
+	/* border:1px solid white;*/
+	color:white;
+}
+#container_header {
+	width:1000px;
+}
+#top_header {
+	background: url("images/banner.jpg");
+	background-size:100%;
+	/*background-color:black;*/
+	color:limegreen;
+	height:100px;
+}
+#container_inhoud {
+	width:1000px;
+}
+#menu_left {
+	clear:both;
+	float:left;
+	width:200px;
+	height:auto;
+	background-color:black;
+	color:white;
+	border:1px solid gray;
+}
+#menu_left table tr td a{
+	padding-left:5px;
+	display:block;
+	background-color:transparent;
+	color:white;
+	text-decoration:none;
+}
+#menu_left table tr td a:hover{
+	display:block;
+	background-color:gray;
+	color:white;
+}
+#inhoud {
+	float:left;
+	width:575px;
+	height:540px;
+	/*margin:5px;*/
+	padding:5px;
+	/*background-color:black;*/
+}
+#menu_right{
+	float:right;
+	width:200px;
+	height:100%;
+	background-color:black;
+	color:white;
+}
+#menu_right table tr td a{
+	display:block;
+	background-color:transparent;
+	color:white;
+	text-decoration:none;
+}
+#menu_right table tr td a:hover{
+	display:block;
+	background-color:gray;
+	color:white;
+}
+#bottom_index{
+	clear:both;
+	background-color:#222;
+	color:white;
+	width:auto;
+	height:20px;
+	padding:10px;
+}
+/*-------------- Nieuws updates -------------------------------------------------------------------------------*/
+#nieuws_menu  table td{
+	background-color:#444;
+	color:white;
+}
+#nieuws_menu  table tr td a{
+	background-color:black;
+	color:limegreen;
+}
+/*-------------- KAVELS -------------------------------------------------------------------------------*/
+#kavelMap {
+	width:375px;
+	height:375px;
+	display:block;
+	float:left;
+}
+#kavelInfo {
+	width:175px;
+	height:375px;
+	display:none;
+	float:left;
+}
+/*-------------- Test configuratie van het uitklap menu -------------------------------------------------*/
+#nav_container { 
+	width:1000px;
+	display:block;
+}
+#nav_rechts {
+	float:left;
+	margin-right:0px; 
+	width:200px;
+	display:block;
+}
+#nav_links {
+	float:left;
+	margin-left:0px; 
+	width:200px;
+	display:block;
+}
+#nav_bezoeker ul li a{
+	float:left;
+	margin-left:0px; 
+	width:200px;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+}
+#nav {
+	float:left;
+	margin-left:auto; 
+	margin-right:auto;
+	width:600px;
+	display:block;
+}
+#nav ul { list-style:none; background:#050735;}
+#nav a{ 
+	text-decoration:none; 
+	background-image: url("images/nav2_bg.png");
+	/*background-color:#555555;*/
+	color:#FFF; 
+	line-height:40px;
+	display:block;
+	margin:1px 0px 0px 0px; 
+}
+#nav a:hover, #nav a:focus {
+	background-image: url("images/nav_bg.png");
+	color:white;
+}
+#nav ul.l1 li { float:left;  width:197px; }
+#nav ul.l3 li { float:left;  width:40px;}
+#nav p{
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+#nav ul.l2 li { float:none;}
+/* Om het uitklapmenu NIET weer te geven */
+#nav ul.l2 { position:absolute; display:none; }
+/* het uitklap menu als block element weergeven */
+#nav ul.l1 li:hover ul.l2 { display:block;
+}
+#nav ul.l2 li a { display:block; background:#050735; color:#FFF; padding:5px 1px 5px 10px; margin:1px 0px 1px 0px; }
+#nav ul.l2 li a:hover { width:190px; display:block; background:#2e2f30; color:#FFF;  padding:4px 0px 4px 10px; margin:1px 0px 1px 0px; border:1px solid #666;}
+#nav ul.l3 li a { display:block; background:black; color:#FFF; border:1px solid white; padding:5px; margin-left:2px;}
+#nav ul.l3 li a:hover { display:block; background:gray; color:#FFF; border:1px solid white; padding:5px; margin-left:2px;}
+/*---------------- Eidne uitklapmenu -------------------------------------------------------------------*/
+*.unselectable { 
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	-ms-user-select: none; 
+	    user-select: none; 
+	cursor:default;
+}
+/*-------------------------- Border klassen  -----------------------------*/
+.border_gray{
+	border:1px solid gray;
+}
+.outline{
+	border:1px solid gray;
+}
+/*-------------------------- Achtergrond klassen  -----------------------------*/
+.background_999{
+	background-color:#444333;
+}
+/*-------------------------- Kleur klassen  -----------------------------*/
+.limegreen{
+	color:limegreen;
+}
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.orange{
+	color:orange;
+}
+.darkgray{
+	background-color:#444;
+}
+.bg_black{
+	background-color:black;
+}
+.bg_gray{
+	background-color:gray;
+}
+.bg_darkgray{
+	background-color:#222222;
+}
+.border_gray{
+	border:1px solid gray;
+}
+/*-------------------------- Positie klassen -----------------------------*/
+.center {
+	text-align:center;
+}
+.align_middle{
+	vertical-align: middle;
+}
+
+#horizontal_align_center{
+	margin-top:2px;
+}
+/*-------------------------- Text klassen  -----------------------------*/
+.bold {
+	font-weight:bold;
+}
+.font_15{
+	font-size:15px;
+}
+/*-------------------------- header klassen  -----------------------------*/
+.mainTxt {
+	color:red;
+	background-color:black;
+	width:100%;
+}
+.subTitle{
+	text-align:center;
+	background-color:#444;
+	border:1px solid #666;
+	color:white;
+	line-height:20px;
+	font-weight:bold;
+	font-size:14px;
+}
+/*-------------------------- Table klassen  -----------------------------*/
+.inhoud_table {
+	background-color:black;
+}
+.table_subTitle {
+	background: url("images/subtitle_bg.gif");
+	background-size:100%;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	padding:2px 10px;
+	line-height:20px;
+}
+.table_subTitle_mini {
+	background: url("images/subtitle_mini_bg.gif");
+	background-size:100%;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	padding:2px 0px;
+	line-height:20px;
+	text-align:center;
+}
+.table_mainTxt {
+	background-color:black;
+	color:white;
+	font-size:12px;
+	padding-left:5px;
+}
+/*-------------------------- Hyperlink & Hyperlink knoppen klassen  -----------------------------*/
+.hyperlink {
+	width:200px;
+	background-color:red;
+}
+.hyperlink_knop {
+	display:block;
+	background-color:#223;
+	width:auto;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+	line-height:30px;
+	border:1px solid limegreen;
+}
+.hyperlink_knop:hover {
+	display:block;
+	background-color:#111;
+	width:auto;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+	line-height:30px;
+	border:1px solid limegreen;
+}
+/*-------------------------- Formulier klassen  -----------------------------*/
+.button_form{
+	margin:5px;
+	padding:2px;
+	background-color:#111;
+	color:limegreen;
+	font-weight:bold;
+	border:1px solid white;
+}
+.button_form:hover{
+	background-color:#333;
+	font-weight:bold;
+	color:limegreen;
+	border:1px solid white;
+}
+.input_form{
+	border:1px solid #444;
+	background-color:#222;
+	color:white;
+
+}
+.button_arrow{
+	background-image: url("images/system/icons/green_arrow_right.gif");
+	background-size:100%;
+	background-color:transparent;
+	width:15px;
+	height:15px;
+}
+.select_field {
+	background-color:black;
+	color:white;
+	border:1px solid red;
+	
+}
+.select_field  option{
+	background-color:black;
+	color:limegreen;
+	padding-left:5px;
+}
+/*-------------------------- Size klassen  -----------------------------*/
+.width_550{
+	width:550px;
+}
+.width_20{
+	width:550px;
+}
+
+.line_high_20 {
+	line-height:20px;
+}
+/*-------------------------- Padding klassen  -----------------------------*/
+.padding_5{
+	padding:5px;
+}
+.padding_15{
+	padding:15px;
+}
+.padding_2{
+	padding:2px;
+}
+.padding_left {
+	padding-left:5px;
+}
+.padding_left_5 {
+	padding-left:5px;
+}
+.padding_left_10 {
+	padding-left:10px;
+}
+.padding_top{
+	padding-top:5px;
+}
+.padding_bottom_5{
+	padding-bottom:5px;
+}
+/*-------------------------- Margin klassen  -----------------------------*/
+.margin_bottom{
+	margin-bottom:5px;
+}
+.margin_left{
+	margin-left:5px;
+}
+.margin_left_5{
+	margin-left:5px;
+}
+.margin_5{
+	margin:5px;
+}
+.margin_auto{
+	margin-left:auto;
+	margin-right:auto;
+}
+/*------------------------- Klasse id ---------------------------------------*/
+#float_left{
+	float:left;
+}
+#float_right{
+	float:right;
+}
+.clear_both { 
+	clear:both; 
+}
+
+.cookie-bar{
+	
+	width:100%;
+	top:0;right:0;
+	left:0;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background-color:black;
+	color:white;
+	font-size:14px;
+	font-family:“Lato”,sans-serif;
+	font-weight:100;
+	border:2px solid limegreen;
+}
+.close-cb { 
+	display:block;
+	width:20px;
+	height:20px;
+	float:right;
+	border:1px solid black;
+	margin:5px;
+}
+.close-cb:hover {
+	background-color:black;
+}

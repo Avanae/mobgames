@@ -1,0 +1,31 @@
+{
+    "name": "Thema Manger",
+    "version": "1.0.0",
+    "description": "Dit staat een admin toe te kiezen tussen verschillende thema's en nieuwe te installeren.",
+    "author": {
+        "name": "Chris Day",
+        "url": "http:\/\/glscript.cdcoding.com"
+    },
+    "pageName": "Theme Manager",
+    "moduleCantBeDisabled": true,
+    "adminGroup": "Modules & Themes",
+    "admin": [
+        {
+            "text": "Thema opties",
+            "method": "options"
+        },
+        {
+            "text": "Bekijk thema's",
+            "method": "view"
+        },
+        {
+            "text": "Instaleer Thema",
+            "method": "install"
+        },
+        {
+            "hide": true,
+            "text": "Schakel thema uit",
+            "method": "deactivate"
+        }
+    ]
+}

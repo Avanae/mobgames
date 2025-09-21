@@ -1,0 +1,12 @@
+{
+    "name": "Zoeken",
+    "version": "1.0.0",
+    "description": "Helpt spelers andere spelers te zoeken",
+    "author": {
+        "name": "Chris Day",
+        "url": "http:\/\/glscript.cdcoding.com"
+    },
+    "pageName": "Spelers zoeken",
+    "accessInJail": true,
+    "requireLogin": true
+}

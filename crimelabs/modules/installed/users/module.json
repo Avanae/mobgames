@@ -1,0 +1,29 @@
+{
+    "name": "Users",
+    "version": "1.0.0",
+    "description": "Deze module geeft een admin de mogelijkheid tot het bewerken van gebruikers.",
+    "author": {
+        "name": "Chris Day",
+        "url": "http:\/\/glscript.cdcoding.com"
+    },
+    "pageName": "Gebruikers administratie",
+    "accessInJail": false,
+    "requireLogin": true,
+    "adminGroup": "User Management",
+    "admin": [
+        {
+            "text": "Zoek gebruiker",
+            "method": "view"
+        },
+        {
+            "hide": true,
+            "text": "Bewerk gebruiker",
+            "method": "edit"
+        },
+        {
+            "hide": true,
+            "text": "Verwijder gebruiker",
+            "method": "delete"
+        }
+    ]
+}
